@@ -10,7 +10,7 @@ def rewrite(m) =
 end
 
 # 2. Pull your source
-radio = mksafe(input.http("http://ice24.securenetsystems.net/WFDL"))
+radio = mksafe(input.http("http://ice24.securenetsystems.net/WFDLAM"))
 
 # 3. Apply the function to the source
 # Use 'rewrite' (the name of the function above)
