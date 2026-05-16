@@ -22,7 +22,7 @@ output.icecast(
   %ffmpeg(format="adts", %audio(codec="aac", b="64k")),
   host = "xxx.xxx.xxx.xxx",
   password = "use-your-own-password",
-  mount = "KLove",
+  mount = "KLove2000s",
   name = "KLove 2000s -Transcoding Project",
   description = "KLove 2000s -Transcoding Project",
   genre = "Adult Contemporary",
