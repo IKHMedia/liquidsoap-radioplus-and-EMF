@@ -6,11 +6,11 @@ set("playlist.preserve", 1)
 def rewrite(m) =
   # This creates a new list of metadata
   # 'm' is the original metadata coming from the source
-  [("title", "Buzz Country 92.5 FM / 103.1 FM#{m['title']}")]
+  [("title", "Mix 106.9#{m['title']}")]
 end
 
 # 2. Pull your source
-radio = mksafe(input.http("https://live.amperwave.net/manifest/magnumbroadcasting-wmbzfmaac-hlsc1.m3u8"))
+radio = mksafe(input.http("https://live.amperwave.net/manifest/magnumbroadcasting-wnnofmaac-hlsc1.m3u8"))
 
 # 3. Apply the function to the source
 # Use 'rewrite' (the name of the function above)
@@ -22,9 +22,9 @@ output.icecast(
   %ffmpeg(format="adts", %audio(codec="aac", b="64k")),
   host = "xxx.xxx.xxx.xxx",
   password = "use-your-own-password",
-  mount = "WMBZ",
-  name = "Buzz Country 92.5 FM / 103.1 FM",
-  description = "Buzz Country 92.5 FM / 103.1 FM",
+  mount = "WNNO",
+  name = "Mix 106.9",
+  description = "Mix 106.9",
   genre = "Adult Contemporary",
   send_icy_metadata = true, # Use 'icy_metadata="true"' if < 2.2
 #  icy_metadata = "true", # Correct for your version
