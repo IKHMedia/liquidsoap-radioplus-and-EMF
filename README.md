@@ -12,14 +12,29 @@ This tutorial shows you how I did exactly that.
 
 I have Broken Down which feeds I am currently using on my Barix Exstreamer 100
 
-CH 0 WFDL-AM
-CH 1 WFDL-FM
-CH 2 WSJY-FM
-CH 3WNNO-FM
-CH 4 K-Love Eras
-CH 5 K-Love 2000s
-CH 6 K-Love 2010s
-CH 7 K-Love 
+CH 0  
+WFDL-AM
+
+CH 1 
+WFDL-FM
+
+CH 2 
+WSJY-FM
+
+CH 3
+WNNO-FM
+
+CH 4 
+K-Love Eras
+
+CH 5 
+K-Love 2000s
+
+CH 6 
+K-Love 2010s
+
+CH 7 
+K-Love 
 
 Please be aware that I do admit that I do rotate from time to time but I decided to make it easy and simple so I included my entire project including the entire liquidsoap files for the entire simulcast. 
 
